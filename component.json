@@ -1,0 +1,24 @@
+{
+  "title": "Stripe",
+  "description": "Stripe OIH Connector",
+  "docsUrl": "https://github.com/openintegrationhub/stripe-connector",
+  "buildType": "docker",
+  "credentials": {
+    "fields": {
+      "accessToken": {
+        "label": "API Key",
+        "required": true,
+        "note": "Your eventbrite  api key"
+      }
+    }
+  },
+  "triggers": {
+    "getAttendees": {
+      "title": "Fetch eevnt attendees",
+      "description": "Will automatically attendees of a specified event",
+      "type": "polling",
+      "main": "./lib/triggers/getAttendees.js"
+    }
+  },
+  "actions": {}
+}
