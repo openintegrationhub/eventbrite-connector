@@ -1,7 +1,7 @@
 FROM node:12-alpine
-LABEL NAME="stripe-connector"
+LABEL NAME="eventbrite-connector"
 LABEL MAINTAINER Sven Hoeffler "shoeffler@wice.de"
-LABEL SUMMARY="This image is used to start the OIH stripe connector"
+LABEL SUMMARY="This image is used to start the OIH eventbrite connector"
 
 RUN apk --no-cache add \
     python \
