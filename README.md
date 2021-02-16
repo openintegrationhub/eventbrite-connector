@@ -9,7 +9,7 @@
 ## Triggers
 
 ### getAttendees
-This trigger will get all attendees from a specified Eventbrite event. Make sure to pass the event's ID as `eventId`, and your API key as `accessToken`. The Connector will automatically recognize new or updated attendees, and pass them on as they occur.
+This trigger will get all attendees from a specified Eventbrite event. Make sure to pass the event's ID as `eventId`, and the "private token" of your API Key as `accessToken`. The Connector will automatically recognize new or updated attendees, and pass them on as they occur.
 
 ## Integrated Transformations
 
