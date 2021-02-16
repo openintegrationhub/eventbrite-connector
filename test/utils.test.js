@@ -78,6 +78,10 @@ describe('transformations', () => {
             type: 'website',
             value: 'https://mysite.com',
           },
+          {
+            type: 'email',
+            value: 'jhon.smith@example.com',
+          },
         ],
         addresses: [
           {
